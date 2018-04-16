@@ -1,0 +1,42 @@
+<android.support.constraint.ConstraintLayout xmlns:androi="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    androi:id="@+id/linearLayout"
+    androi:layout_width="match_parent"
+    androi:layout_height="wrap_content"
+    tools:layout_editor_absoluteY="81dp">
+
+    <TextView
+        androi:id="@+id/crime_title"
+        androi:layout_width="0dp"
+        androi:layout_height="wrap_content"
+        androi:layout_marginStart="16dp"
+        androi:layout_marginTop="16dp"
+        androi:text="Crime Title"
+        androi:textColor="@android:color/black"
+        androi:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        androi:id="@+id/crime_date"
+        androi:layout_width="0dp"
+        androi:layout_height="wrap_content"
+        androi:layout_marginStart="16dp"
+        androi:layout_marginTop="8dp"
+        androi:text="Crime Date"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/crime_title" />
+
+    <ImageView
+        androi:id="@+id/crime_solved"
+        androi:layout_width="wrap_content"
+        androi:layout_height="wrap_content"
+        androi:layout_marginBottom="8dp"
+        androi:layout_marginEnd="8dp"
+        androi:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_solved" />
+</android.support.constraint.ConstraintLayout>

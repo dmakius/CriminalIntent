@@ -1,0 +1,22 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+    <!-- Recycler View to Display Crimes in List Format -->
+    <android.support.v7.widget.RecyclerView
+        xmlns:andorid="http://schemas.android.com/apk/res/android"
+        andorid:id="@+id/crime_recycler_view"
+        andorid:layout_width="match_parent"
+        andorid:layout_height="wrap_content"/>
+
+    <!--To Display when there is NO DATA -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/empty_view"
+        android:gravity="center"
+        android:visibility="gone"
+        android:text="THERE IS NO CONTENT TO DISPLAY"/>
+
+</RelativeLayout>

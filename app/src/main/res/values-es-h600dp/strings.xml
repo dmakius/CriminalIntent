@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+       <string name="crime_title_hint">
+        Introduuzca un titolu significativo y memorable para el cremin.
+    </string>
+</resources>
